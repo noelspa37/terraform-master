@@ -17,13 +17,13 @@ variable node_count {
 
 
 variable dns_prefix {
-  default = "k8sAforo255fv"
+  default = "k8sAforo255fv-nca"
 }
 
 variable cluster_name {
-  default = "k8sAforo255fv"
+  default = "k8sAforo255fv-nca"
 }
 
 variable resource_group {
-  default = "kubernetesAforo255fv"
+  default = "kubernetesAforo255fv-nca"
 }
