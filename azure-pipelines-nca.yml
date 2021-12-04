@@ -24,7 +24,7 @@ steps:
     commandOptions: '-var client_id=$(client_id) -var client_secret=$(client_secret) -var ssh_public_key=$(publickey.secureFilePath)'
     backendType: 'azurerm'
     backendServiceArm: 'Azure-resource-nca'
-    backendAzureRmResourceGroupName: 'westeurope'
+    backendAzureRmResourceGroupName: 'eastus'
     backendAzureRmStorageAccountName: 'storageacctnca'
     backendAzureRmContainerName: 'storageacctncacontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
