@@ -25,7 +25,7 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'Azure-resource-nca'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'eastus'
+    backendAzureRmResourceGroupName: 'centralus'
     backendAzureRmResourceGroupLocation: 'resourcegroupnca'
     backendAzureRmStorageAccountName: 'storageacctnca'
     backendAzureRmContainerName: 'storageacctncacontainer'
