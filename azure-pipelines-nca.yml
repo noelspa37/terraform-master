@@ -25,8 +25,8 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'Azure-resource-nca'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'centralus'
-    backendAzureRmResourceGroupLocation: 'resourcegroupnca'
+    backendAzureRmResourceGroupName: 'resourcegroupnca'
+    backendAzureRmResourceGroupLocation: 'centralus'
     backendAzureRmStorageAccountName: 'storageacctnca'
     backendAzureRmContainerName: 'storageacctncacontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
